@@ -3,27 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Máquina de generar excusas</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container-fluid text-center"></div>
+    <div class="row mt-3 p-2">
+      <div class="col-sm"></div>
+      <div class="col-5">
+        <div
+          class="alert alert-warning alert-dismissible fade show"
+          role="alert"
+        >
+          <strong>¡EXCUSÓN 3.000!</strong> Herramienta desarrollada por
+          ingenieros para elaborar las mejores excusas.
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+        </div>
       </div>
+      <div class="col-sm"></div>
+    </div>
+    <div class="row mt-5 p-2">
+      <div class="col"></div>
+      <div class="col-6">
+        <span class="custom-border">
+          <h2 class="display-5 text-center fw-bold">
+            ¡Madre mía!... ¡no te lo vas a creer!
+          </h2>
+          <br />
+          <h4 id="excuse" class="display-6 text-center">
+            My dog eat my homework
+          </h4>
+        </span>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row mt-5 p-5">
+      <div class="col"></div>
+      <div class="col-6 text-center">
+        <button onclick="window.location.reload()">
+          <span class="shadow"></span>
+          <span class="edge"></span>
+          <span class="front text"> Poner excusa </span>
+        </button>
+      </div>
+      <div class="col"></div>
     </div>
   </body>
 </html>
